@@ -1,4 +1,4 @@
-package com.seek.notifications.core;
+package com.seek.notifications.exceptions;
 
 /**
  * Excepción base de la librería.

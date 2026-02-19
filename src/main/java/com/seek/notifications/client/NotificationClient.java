@@ -1,7 +1,12 @@
-package com.seek.notifications.core;
+package com.seek.notifications.client;
 
+import com.seek.notifications.exceptions.SendFailedException;
+import com.seek.notifications.registry.SenderRegistry;
+import com.seek.notifications.exceptions.ValidationException;
 import com.seek.notifications.events.EventBus;
 import com.seek.notifications.events.NotificationEvent;
+import com.seek.notifications.models.Notification;
+import com.seek.notifications.models.SendResult;
 import com.seek.notifications.spi.NotificationSender;
 import com.seek.notifications.spi.NotificationValidator;
 

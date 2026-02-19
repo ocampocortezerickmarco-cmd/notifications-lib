@@ -1,17 +1,20 @@
 package com.seek.notifications;
 
-import com.seek.notifications.core.*;
+import com.seek.notifications.client.NotificationClient;
 import com.seek.notifications.events.InMemoryEventBus;
 import com.seek.notifications.events.NotificationEvent;
+import com.seek.notifications.exceptions.NotificationException;
+import com.seek.notifications.models.*;
 import com.seek.notifications.spi.NotificationSender;
 import com.seek.notifications.spi.NotificationValidator;
 import com.seek.notifications.retry.RetryingSender;
+import com.seek.notifications.exceptions.SendFailedException;
+import com.seek.notifications.exceptions.ValidationException;
 import org.junit.jupiter.api.Test;
 
 import java.time.Duration;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.concurrent.ExecutionException;
 
 import static org.junit.jupiter.api.Assertions.*;
 

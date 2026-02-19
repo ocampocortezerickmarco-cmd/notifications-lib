@@ -1,9 +1,9 @@
 package com.seek.notifications.providers.email;
 
 
-import com.seek.notifications.core.Channel;
-import com.seek.notifications.core.Notification;
-import com.seek.notifications.core.SendResult;
+import com.seek.notifications.models.Channel;
+import com.seek.notifications.models.Notification;
+import com.seek.notifications.models.SendResult;
 import com.seek.notifications.spi.NotificationSender;
 
 import java.util.UUID;

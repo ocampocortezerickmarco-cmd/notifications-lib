@@ -1,4 +1,4 @@
-package com.seek.notifications.core;
+package com.seek.notifications.exceptions;
 
 /**
  * Error durante el envío (fallas del provider, timeouts simulados, etc.)

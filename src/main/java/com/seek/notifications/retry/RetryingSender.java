@@ -1,7 +1,11 @@
 package com.seek.notifications.retry;
 
-import com.seek.notifications.core.*;
+import com.seek.notifications.models.Channel;
+import com.seek.notifications.models.Notification;
+import com.seek.notifications.models.SendResult;
 import com.seek.notifications.spi.NotificationSender;
+import com.seek.notifications.exceptions.SendFailedException;
+import com.seek.notifications.exceptions.ValidationException;
 
 import java.time.Duration;
 

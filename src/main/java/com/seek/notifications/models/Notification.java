@@ -1,4 +1,4 @@
-package com.seek.notifications.core;
+package com.seek.notifications.models;
 
 import java.time.Instant;
 import java.util.Objects;

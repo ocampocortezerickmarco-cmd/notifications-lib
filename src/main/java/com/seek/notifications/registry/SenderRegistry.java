@@ -1,5 +1,7 @@
-package com.seek.notifications.core;
+package com.seek.notifications.registry;
 
+import com.seek.notifications.exceptions.NotificationException;
+import com.seek.notifications.models.Channel;
 import com.seek.notifications.spi.NotificationSender;
 
 import java.util.EnumMap;

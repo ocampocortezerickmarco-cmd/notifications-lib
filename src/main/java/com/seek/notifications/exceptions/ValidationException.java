@@ -1,4 +1,4 @@
-package com.seek.notifications.core;
+package com.seek.notifications.exceptions;
 
 /**
  * Error por datos inválidos (input).

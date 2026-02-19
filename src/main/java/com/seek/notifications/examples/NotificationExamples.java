@@ -1,7 +1,8 @@
 package com.seek.notifications.examples;
 
-import com.seek.notifications.core.*;
+import com.seek.notifications.client.NotificationClient;
 import com.seek.notifications.events.InMemoryEventBus;
+import com.seek.notifications.models.*;
 import com.seek.notifications.providers.email.SendGridEmailSender;
 import com.seek.notifications.providers.push.FcmPushSender;
 import com.seek.notifications.providers.sms.TwilioSmsSender;

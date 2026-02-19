@@ -1,8 +1,8 @@
 package com.seek.notifications.spi;
 
-import com.seek.notifications.core.Channel;
-import com.seek.notifications.core.Notification;
-import com.seek.notifications.core.SendResult;
+import com.seek.notifications.models.Channel;
+import com.seek.notifications.models.Notification;
+import com.seek.notifications.models.SendResult;
 
 public interface NotificationSender {
     Channel channel();

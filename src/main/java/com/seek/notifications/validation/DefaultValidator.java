@@ -1,6 +1,7 @@
 package com.seek.notifications.validation;
 
-import com.seek.notifications.core.*;
+import com.seek.notifications.exceptions.ValidationException;
+import com.seek.notifications.models.*;
 import com.seek.notifications.spi.NotificationValidator;
 
 import java.util.regex.Pattern;

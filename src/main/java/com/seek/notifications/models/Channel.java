@@ -1,4 +1,4 @@
-package com.seek.notifications.core;
+package com.seek.notifications.models;
 
 /**
  * Canales soportados por la librería.
